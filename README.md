@@ -1,4 +1,4 @@
-# MBDyn2ForcesCoupled#
+# MBDyn2ForcesCoupled
 
 Requirements:
 Python 3, MBDyn (with python interface)
