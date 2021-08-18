@@ -1,0 +1,135 @@
+
+MBDyn - MultiBody Dynamics 1.7.3
+configured on May  5 2021 at 06:34:40
+
+Copyright 1996-2017 (C) Paolo Mantegazza and Pierangelo Masarati,
+Dipartimento di Ingegneria Aerospaziale <http://www.aero.polimi.it/>
+Politecnico di Milano                   <http://www.polimi.it/>
+
+MBDyn is free software, covered by the GNU General Public License,
+and you are welcome to change it and/or distribute copies of it
+under certain conditions.  Use 'mbdyn --license' to see the conditions.
+There is absolutely no warranty for MBDyn.  Use "mbdyn --warranty"
+for details.
+
+reading from file "membrane.mbd"
+Creating scalar solver with Umfpack linear solver
+Reading Structural(11)
+Reading Structural(1001)
+Reading Structural(1006)
+Reading Beam(1001)
+Reading Joint(1)
+Reading Joint(101)
+Reading Force(10)
+Reading Force(11)
+LOCAL connection to path="case0.sock"
+LOCAL connection to path="case1.sock"
+Assembly Tol=1e-06
+Residual(0:0) t=0 dt=0
+Eq         1:                    0 StructNode(11): position constraint Px
+Eq         2:                    0 StructNode(11): position constraint Py
+Eq         3:                    0 StructNode(11): position constraint Pz
+Eq         4:                    0 StructNode(11): orientation constraint gx
+Eq         5:                    0 StructNode(11): orientation constraint gy
+Eq         6:                    0 StructNode(11): orientation constraint gz
+Eq         7:                    0 StructNode(11): position constraint derivative vx
+Eq         8:                    0 StructNode(11): position constraint derivative vy
+Eq         9:                    0 StructNode(11): position constraint derivative vz
+Eq        10:                    0 StructNode(11): orientation constraint derivative wx
+Eq        11:                    0 StructNode(11): orientation constraint derivative wy
+Eq        12:                    0 StructNode(11): orientation constraint derivative wz
+Eq        13:                    0 StructNode(1001): position constraint Px
+Eq        14:                    0 StructNode(1001): position constraint Py
+Eq        15:                    0 StructNode(1001): position constraint Pz
+Eq        16:                    0 StructNode(1001): orientation constraint gx
+Eq        17:                    0 StructNode(1001): orientation constraint gy
+Eq        18:                    0 StructNode(1001): orientation constraint gz
+Eq        19:                    0 StructNode(1001): position constraint derivative vx
+Eq        20:                    0 StructNode(1001): position constraint derivative vy
+Eq        21:                    0 StructNode(1001): position constraint derivative vz
+Eq        22:                    0 StructNode(1001): orientation constraint derivative wx
+Eq        23:                    0 StructNode(1001): orientation constraint derivative wy
+Eq        24:                    0 StructNode(1001): orientation constraint derivative wz
+Eq        25:                    0 StructNode(1006): position constraint Px
+Eq        26:                    0 StructNode(1006): position constraint Py
+Eq        27:                    0 StructNode(1006): position constraint Pz
+Eq        28:                    0 StructNode(1006): orientation constraint gx
+Eq        29:                    0 StructNode(1006): orientation constraint gy
+Eq        30:                    0 StructNode(1006): orientation constraint gz
+Eq        31:                    0 StructNode(1006): position constraint derivative vx
+Eq        32:                    0 StructNode(1006): position constraint derivative vy
+Eq        33:                    0 StructNode(1006): position constraint derivative vz
+Eq        34:                    0 StructNode(1006): orientation constraint derivative wx
+Eq        35:                    0 StructNode(1006): orientation constraint derivative wy
+Eq        36:                    0 StructNode(1006): orientation constraint derivative wz
+Eq        37:                    0 ClampJoint(1): position constraint Px
+Eq        38:                    0 ClampJoint(1): position constraint Py
+Eq        39:                    0 ClampJoint(1): position constraint Pz
+Eq        40:                    0 ClampJoint(1): orientation constraint thetax
+Eq        41:                    0 ClampJoint(1): orientation constraint thetay
+Eq        42:                    0 ClampJoint(1): orientation constraint thetaz
+Eq        43:                    0 ClampJoint(1): position constraint derivative vx
+Eq        44:                    0 ClampJoint(1): position constraint derivative vy
+Eq        45:                    0 ClampJoint(1): position constraint derivative vz
+Eq        46:                    0 ClampJoint(1): orientation constraint derivative wx
+Eq        47:                    0 ClampJoint(1): orientation constraint derivative wy
+Eq        48:                    0 ClampJoint(1): orientation constraint derivative wz
+Eq        49:                    0 AxialRotationJoint(101): position constraint Px
+Eq        50:                    0 AxialRotationJoint(101): position constraint Py
+Eq        51:                    0 AxialRotationJoint(101): position constraint Pz
+Eq        52:                    0 AxialRotationJoint(101): orientation constraint gx
+Eq        53:                    0 AxialRotationJoint(101): orientation constraint gy
+Eq        54:                    0 AxialRotationJoint(101): angular velocity constraint wz
+Eq        55:                    0 AxialRotationJoint(101): position constraint derivative vx
+Eq        56:                    0 AxialRotationJoint(101): position constraint derivative vy
+Eq        57:                    0 AxialRotationJoint(101): position constraint derivative vz
+Eq        58:                    0 AxialRotationJoint(101): orientation constraint derivative wx
+Eq        59:                    0 AxialRotationJoint(101): orientation constraint derivative wy
+	Iteration(0) 0
+Derivatives t=0 coef=0.5
+Residual(0:0) t=0 dt=0.0001
+Eq         1:                    0 StructNode(11): force equilibrium Fx
+Eq         2:                    0 StructNode(11): force equilibrium Fy
+Eq         3:                    0 StructNode(11): force equilibrium Fz
+Eq         4:                    0 StructNode(11): moment equilibrium Mx
+Eq         5:                    0 StructNode(11): moment equilibrium My
+Eq         6:                    0 StructNode(11): moment equilibrium Mz
+Eq         7:                    0 StructNode(1001): momentum definition Bx
+Eq         8:                    0 StructNode(1001): momentum definition By
+Eq         9:                    0 StructNode(1001): momentum definition Bz
+Eq        10:                    0 StructNode(1001): momenta moment definition Gx
+Eq        11:                    0 StructNode(1001): momenta moment definition Gy
+Eq        12:                    0 StructNode(1001): momenta moment definition Gz
+Eq        13:                    0 StructNode(1001): force equilibrium Fx
+Eq        14:                    0 StructNode(1001): force equilibrium Fy
+Eq        15:                    0 StructNode(1001): force equilibrium Fz
+Eq        16:                    0 StructNode(1001): moment equilibrium Mx
+Eq        17:                    0 StructNode(1001): moment equilibrium My
+Eq        18:                    0 StructNode(1001): moment equilibrium Mz
+Eq        19:                    0 StructNode(1006): momentum definition Bx
+Eq        20:                    0 StructNode(1006): momentum definition By
+Eq        21:                    0 StructNode(1006): momentum definition Bz
+Eq        22:                    0 StructNode(1006): momenta moment definition Gx
+Eq        23:                    0 StructNode(1006): momenta moment definition Gy
+Eq        24:                    0 StructNode(1006): momenta moment definition Gz
+Eq        25:                    0 StructNode(1006): force equilibrium Fx
+Eq        26:                    0 StructNode(1006): force equilibrium Fy
+Eq        27:                    0 StructNode(1006): force equilibrium Fz
+Eq        28:                    0 StructNode(1006): moment equilibrium Mx
+Eq        29:                    0 StructNode(1006): moment equilibrium My
+Eq        30:                    0 StructNode(1006): moment equilibrium Mz
+Eq        31:                    0 ClampJoint(1): position constraint Px
+Eq        32:                    0 ClampJoint(1): position constraint Py
+Eq        33:                    0 ClampJoint(1): position constraint Pz
+Eq        34:                    0 ClampJoint(1): orientation constraint thetax
+Eq        35:                    0 ClampJoint(1): orientation constraint thetay
+Eq        36:                    0 ClampJoint(1): orientation constraint thetaz
+Eq        37:                    0 AxialRotationJoint(101): position constraint Px
+Eq        38:                    0 AxialRotationJoint(101): position constraint Py
+Eq        39:                    0 AxialRotationJoint(101): position constraint Pz
+Eq        40:                    0 AxialRotationJoint(101): orientation constraint gx
+Eq        41:                    0 AxialRotationJoint(101): orientation constraint gy
+Eq        42:                    0 AxialRotationJoint(101): angular velocity constraint wz
+	Iteration(0) 0
+Step(1:0) t=0.0001 dt=0.0001
+An error occurred during the execution of MBDyn; aborting... 
