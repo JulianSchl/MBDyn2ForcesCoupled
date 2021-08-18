@@ -7,5 +7,5 @@ To reproduce the case, open a terminal and execute:
 
 Terminal 1:
 ```
-python script.py
+python3 script.py
 ```
